@@ -1,0 +1,24 @@
+
+package sumaayb;
+
+import java.util.Scanner;
+public class Sumaayb {
+
+ 
+    public static void main(String[] args) {
+        Scanner dato=new  Scanner(System.in);
+        double a,b,suma;
+        System.out.println("Ingrese el primer numero");
+        a=dato.nextDouble();
+        System.out.println("Ingrese el segundo numero");
+        b=dato.nextDouble();
+        
+        if(a<=100 && b<=100 ){
+        
+        suma=a+b;
+        System.out.println("La suma total ES: "+suma);
+        }
+         else{
+        System.out.println("La Suma es mayor a 100");}
+        }
+}
